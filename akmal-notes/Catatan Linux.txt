@@ -1,0 +1,25 @@
+Command/Perintah Terminal Linux :
+- touch nama_file = utk membuat file text
+- pwd = utk mengetahui lokasi terminal kita sekarang.
+- ls = utk mengetahui isi dari direktori kita sekarang.
+- cd = utk ke root paling awal saat pertama kali buka terminal.
+- cd - = utk kembali ke lokasi direktori sebelumnya.
+- cd nama_direktori = utk masuk atau keluar dari direktori sebuah folder.
+- clear = utk membersihkan terminal.
+- cp file_asli file_salinan = utk mencopast file dr terminal.
+- cp -r nama_file lokasi_file = utk mencopast dan menaruh di direktori lain
+- mv nama_file lokasi_pindahan= memindahkan lokasi file.
+- mv nama_file nama_baru_file = utk rename file
+- whoami = utk mengetahui user yg kita gunakan saat ini.
+- sudo su = utk masuk ke mode root.
+- apt update = utk update repo linux pertama kali setelah install
+- apt upgrade = utk upgrade repo linux stelah selesai update
+- mkdir nama_folder = utk membuat folder
+- ll = utk melihat direktori beserta permissionnya.
+- rm -rf nama_file =  utk menghapus file/folder
+- vi nama_file = utk masuk ke text editor bawaan linux / vim
+  cara keluar vim : ketik esc, lalu ketik ':' abis itu ketik 'wq', done.
+- snap install nama_software = packet manager utk install2 software
+- ctrl + alt + t = shortcut utk buka terminal.
+- cat nama_file = utk melihat isian codingan di terminal
+- node nama_file = utk running file

@@ -1,0 +1,43 @@
+For Global Config :
+- git config --global user.email "alamat_email"
+- git config --global user.name "username_pada git"
+For Spesific username/email :
+- git config user.email "alamat_email"
+- git config user.name "username_pada git"
+
+- git config --list = untuk menampilkan konfigurasi saat ini.
+- git log --all --decorate --oneline --graph = untuk menampilkan graph (cuma bisa sekali)
+- graph = untuk mengetahui grafik dari branch yang dituju.
+- alias graph="git log --all --decorate --oneline --graph" = sebagai alternatif utk menampilkan graph, jadi tinggal ketik graph langsung muncul graphnya.
+- git checkout nama/branch / 5 hash commit awal = untuk pindah ke branch lain / ke commit sebelumnya.
+- git branch nama_branch = untuk membuat branch/cabang baru.
+- git checkout -b nama_branch = langsung pindah branch sekaligus membuat branch jika branchnya tidak ada
+- git branch = untuk menampilkan branch yang ada.
+- git status = untuk melihat kondisi/keadaan git saat ini. agar saat commit tdk lupa memindahkan dr working area ke staging area
+- git commit -am "pesan_commit" = untuk melakukan commit sekaligus git add . (syarat : file harus keadaan modified, jika msh untracked maka harus di git add . dulu)
+- git fetch nama_remote = untuk melihat keadaan/mengambil commit pada suatu repo.
+- git merge nama_remote/nama_branch = untuk mengambil data atau menyamakan data pada suatu repo ke lokal kita.
+- git merge nama_branch = untuk merged suatu branch
+- git branch --merged = untuk mengetahui branch mana yang sudah di merged.
+- git branch -d nama_brach =  untuk menghapus branch pada lokal.
+- git push nama_remote --delete nama_branch = untuk menghapus branch pada commit yg sudah ada.
+
+
+Note :
+Jenis Merge :
+- fast forward = terjadi ketika branch yang ingin digabungkan berada pada direct path/		berada disatu jalur dengan master/main
+- Three Way merge/merge commit = terjadi ketika branch yang ingin digabungkan tidak berada disatu jalur dengan direct path.
+
+
+- Create Personal Access Token on GitHub :
+From your GitHub account, go to Settings => Developer Settings => Personal Access Token => Generate New Token (Give your password) => Fillup the form => click Generate token => Copy the generated Token, it will be something like ghp_sFhFsSHhTzMDreGRLjmks4Tzuzgthdvfsrta
+
+Now cache the given record in your computer to remembers the token:
+$ git config --global credential.helper cache
+
+If needed, anytime you can delete the cache record by:
+$ git config --global --unset credential.helper
+$ git config --system --unset credential.helper
+
+Clone : git clone https://<tokenhere>@github.com/<user>/<repo>.git
+

@@ -1,0 +1,31 @@
+
+[
+  {
+    "nama": "Akmal Maulfi Anwar",
+    "npm" : "202010225032",
+    "email" : "akmalmaulfi@gmail.com",
+    "jurusan" : "Teknik Informatika",
+    "idDosenWali" : 1
+  },
+  {
+    "nama": "Mega",
+    "npm" : "202010225042",
+    "email" : "megasept@gmail.com",
+    "jurusan" : "Teknik Informatika",
+    "idDosenWali" : 2
+  },
+  {
+    "nama": "Septi",
+    "npm" : "202010225001",
+    "email" : "septi@gmail.com",
+    "jurusan" : "Teknik Informatika",
+    "idDosenWali" : 3
+  },
+  {
+    "nama": "Sismawati",
+    "npm" : "2020102250021",
+    "email" : "sismawati@gmail.com",
+    "jurusan" : "Manajemen",
+    "idDosenWali" : 4
+  }
+]
